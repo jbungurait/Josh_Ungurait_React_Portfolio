@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import './style.css';
 import { validateEmail, validatePhone } from '../../utils/helpers';
+import '../../assets/css/ContactForm.css';
 
 function contactForm() {
     const [name, setName] = useState('');
@@ -45,9 +45,10 @@ function contactForm() {
 
     return (
         <div> 
-            <h3>Contact Me!</h3>
+            <h3>Submit message here!</h3>
             <form className="contactForm">
                 <input
+                className='input-group input-group-lg mb-3'
                 value={name}
                 name="name"
                 onChange={handleInputChange}
@@ -65,10 +66,11 @@ function contactForm() {
                 value={phone}
                 name="phone"
                 onChange={handleInputChange}
-                type="number"
+                type="text"
                 placeholder='(XXX)XXX-XXXX'>
                 </input>
                 <input
+                className='input-group input-group-lg'
                 value={message}
                 name="message"
                 onChange={handleInputChange}

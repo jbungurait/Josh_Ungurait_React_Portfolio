@@ -1,6 +1,13 @@
 import React from 'react';
-import '../../assets/css/style.css';
+import '../../assets/css/AboutMe.css';
 import Headshot from '../../assets/images/IMG_2056.jpg';
+
+const styles = {
+    imgStyle: {
+        scale: '50%',
+
+    }
+}
 
 export default function AboutMe() {
     return (
@@ -15,7 +22,7 @@ export default function AboutMe() {
                 our high detail process. I've been learing how to fly fish as well. I have been web coding for the 
                 last 6 months and have learned a lot. 
             </p>
-            <img src={Headshot}></img>
+            <img style={styles.imgStyle} src={Headshot}></img>
         </div>
     );
 };
