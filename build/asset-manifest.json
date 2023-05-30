@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2cab247.css",
-    "main.js": "/static/js/main.a01482a5.js",
-    "index.html": "/index.html",
-    "main.c2cab247.css.map": "/static/css/main.c2cab247.css.map",
-    "main.a01482a5.js.map": "/static/js/main.a01482a5.js.map"
+    "main.css": "/Josh_Ungurait_React_Portfolio/static/css/main.a581c419.css",
+    "main.js": "/Josh_Ungurait_React_Portfolio/static/js/main.cf522d74.js",
+    "static/media/AF_screenshot.jpg": "/Josh_Ungurait_React_Portfolio/static/media/AF_screenshot.39798d62f8a13cae8211.jpg",
+    "static/media/Resume_5_23.pdf": "/Josh_Ungurait_React_Portfolio/static/media/Resume_5_23.1fe24f71207afdb3e491.pdf",
+    "static/media/Text-Edit-Pro.png": "/Josh_Ungurait_React_Portfolio/static/media/Text-Edit-Pro.a8dac1473787cefe8b4f.png",
+    "static/media/IMG_2056.jpg": "/Josh_Ungurait_React_Portfolio/static/media/IMG_2056.db1458c6bd4afbf4b09e.jpg",
+    "static/media/linkedIn-Logo.png": "/Josh_Ungurait_React_Portfolio/static/media/linkedIn-Logo.bb933d6809d6410387a0.png",
+    "index.html": "/Josh_Ungurait_React_Portfolio/index.html",
+    "main.a581c419.css.map": "/Josh_Ungurait_React_Portfolio/static/css/main.a581c419.css.map",
+    "main.cf522d74.js.map": "/Josh_Ungurait_React_Portfolio/static/js/main.cf522d74.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2cab247.css",
-    "static/js/main.a01482a5.js"
+    "static/css/main.a581c419.css",
+    "static/js/main.cf522d74.js"
   ]
 }
