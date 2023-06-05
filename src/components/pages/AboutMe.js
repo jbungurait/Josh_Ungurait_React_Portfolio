@@ -4,15 +4,18 @@ import Headshot from '../../assets/images/IMG_2056.jpg';
 
 const styles = {
     imgStyle: {
-        scale: '50%',
-
+        margin: '10px',
+        padding: '10px',
     }
 }
 
 export default function AboutMe() {
     return (
-        <div>
+        <div className='content'>
             <h1>About Me!</h1>
+            <div className='image'>
+                <img className="headshot" style={styles.imgStyle} src={Headshot}></img>
+            </div>
             <p>
                 Hello! My name is Josh Ungurait. I currently live in downtown Seattle
                 with my dog June. I've been in Washington State for 3 years now after graduating from
@@ -22,7 +25,7 @@ export default function AboutMe() {
                 our high detail process. I've been learing how to fly fish as well. I have been web coding for the 
                 last 6 months and have learned a lot. 
             </p>
-            <img style={styles.imgStyle} src={Headshot}></img>
+           
         </div>
     );
 };

@@ -47,37 +47,52 @@ function contactForm() {
         <div> 
             <h3>Submit message here!</h3>
             <form className="contactForm">
+                <div className='mb3'>
                 <input
-                className='input-group input-group-lg mb-3'
+                className='form-control'
                 value={name}
                 name="name"
                 onChange={handleInputChange}
                 type="text"
                 placeholder='Name'>
                 </input>
+                </div>
+                <div>
                 <input 
                 value={email}
+                className='form-control'
                 name="email"
                 onChange={handleInputChange}
                 type='email'
                 placeholder='Email'>
                 </input>
+                </div>
+                <div>
                 <input
                 value={phone}
+                className='form-control'
                 name="phone"
                 onChange={handleInputChange}
                 type="text"
                 placeholder='(XXX)XXX-XXXX'>
                 </input>
-                <input
-                className='input-group input-group-lg'
+                </div>
+                <div class="input-group-prepend">
+                <textarea
+                className='form-control'
                 value={message}
                 name="message"
                 onChange={handleInputChange}
                 type="text"
-                placeholder='Enter message Here.'>
-                </input>
-                <button type="button" onClick={handleFormSubmit}>Submit</button>
+                placeholder='Enter message Here.'
+                rows="10">
+                </textarea>
+                     </div>
+                     <div>
+                <button type="button" 
+                className="btn btn-dark float-right"
+                onClick={handleFormSubmit}>Submit</button>
+                </div>
             </form>
             {errorMessage && (
                 <div>

@@ -1,18 +1,17 @@
 import React from 'react';
-import { Document, Page } from 'react-pdf';
-import JoshResume from '../../assets/images/Resume_5_23.pdf';
+import JoshResume from '../../assets/images/Josh_Ungurait.pdf';
 import '../../assets/css/Resume.css';
-import { PDFViewer } from '@react-pdf/renderer';
+
 
 export default function Resume() {
     return (
-        <div>
+        <div className='content'>
+        <div className='resume'>
             <h1>Resume</h1>
-            <p>
-                <PDFViewer> 
-                    <JoshResume />
-            </PDFViewer>
-            </p>
+               <object data={JoshResume} type="application/pdf" width="100%" height="1100px">
+            {/* <p><a link={JoshResume}></a></p> */}
+               </object>
+        </div>
         </div>
     )
 }

@@ -1,11 +1,10 @@
 import React, {useState} from 'react';
 import NavTabs from './NavTabs';
-import Footer from './Footer';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
-import '../assets/css/style.css';
+import '../assets/css/index.css';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');

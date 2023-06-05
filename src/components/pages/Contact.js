@@ -4,7 +4,7 @@ import '../../assets/css/Contact.css';
 
 function Contact() {
     return (
-        <div>
+        <div className='content'>
             <h1>Contact</h1>
             < ContactForm />
         </div>

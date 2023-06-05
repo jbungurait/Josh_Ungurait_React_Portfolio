@@ -7,6 +7,7 @@ const styles = {
         position: 'static',
         display: 'block',
         bottom: '0px',
+        paddingTop: '20px',
     },
     imgStyles: {
         maxHeight: '100px',
@@ -17,7 +18,7 @@ const styles = {
 
 export default function Footer() {
     return (
-        <footer className='' style={styles.footerStyles}>
+        <footer className='class="position-absolute bottom-0 start-50 translate-middle-x"' style={styles.footerStyles}>
             <a href='https://github.com/jbungurait'>
             <img 
             src={GitHub} 

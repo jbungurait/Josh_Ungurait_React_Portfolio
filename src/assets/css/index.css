@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html, body {
+    min-height: 100% !important;
+}
+
 :root {
     --back-blue: rgba(110, 110, 158, 0.922);
     --logo-orange: #cd5828;
@@ -13,7 +17,7 @@
 }
 
 .nav {
-    background-color: var(--dark-blue);
+    background-color: var(--dark-blue) !important;
 }
 
 .nav-item a{
@@ -22,9 +26,22 @@
 }
 
 body {
-    background-color: var(--back-blue);
+    background-color: var(--back-blue) !important;
 }
 
 .portfolio {
     color: black;
+
+}
+
+a h2 {
+    color: var(--logo-orange) !important;
+}
+
+.card {
+    background-color: var(--back-blue) !important;
+}
+
+.content {
+    min-height: 1100px;
 }

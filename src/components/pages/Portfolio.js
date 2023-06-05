@@ -1,37 +1,105 @@
 import React from 'react';
 import '../../assets/css/Portfolio.css';
-import AF from '../../assets/images/AF_screenshot.jpg';
-import TEP from '../../assets/images/Text-Edit-Pro.png'
+import AdventureFinder from '../../assets/images/AF_screenshot.jpg';
+import TextEditPro from '../../assets/images/Text-Edit-Pro.png';
+import READMEGen from '../../assets/images/READMEGen.png';
+import WeatherDashboard from '../../assets/images/WeatherDashboard.png';
+import SleepSync from '../../assets/images/SleepSync.png';
 
 const styles = {
     PortfolioStyle: {
-        width: '50%',
+        width: '45%',
     },
+    titleStyles: {
+        textDecoration: 'none',
+        color: 'black',
+    }
 };
 
 export default function Portfolio() {
     return (
-        <div >
+        <div className='content'>
             <h1>Portfolio</h1>
+            <div className='row'>
+                
             <div className='card' style={styles.PortfolioStyle}>
+            <a href='https://jbungurait.github.io/Adventure_Finder/'>
                 <div className='card-header'>
-                    <h2>Adventure Finder</h2>
+                    <h3 style={styles.titleStyles}>Adventure Finder</h3>
                 </div>
                 <div className='card-body'>
-                    <img src={AF} 
+                    <img src={AdventureFinder} 
                     className='img-fluid'
-                    href='https://jbungurait.github.io/Adventure_Finder/'></img>
+                    ></img>
                 </div>
+                </a>
+            </div>
+           
+            <div className='card' style={styles.PortfolioStyle}>
+                <a  href='https://text-edit-pro.herokuapp.com/'>
+                <div className='card-header'>
+                    <h3 style={styles.titleStyles}>Text Edit Pro</h3>
+                </div>
+                <div className='card-body'>
+                    <img src={TextEditPro} 
+                    className='img-fluid'
+                   ></img>
+                </div>
+                </a>
+            </div>
+            
+            </div>
+            <div className='row'>
+            <div className='card' style={styles.PortfolioStyle}>
+                <a  href='https://jbungurait.github.io/My-Weather-Dashboard/'>
+                <div className='card-header'>
+                    <h3 style={styles.titleStyles}>Weather Dashboard</h3>
+                </div>
+                <div className='card-body'>
+                    <img src={WeatherDashboard} 
+                    className='img-fluid'
+                   ></img>
+                </div>
+                </a>
             </div>
             <div className='card' style={styles.PortfolioStyle}>
+                <a href='https://github.com/jbungurait/README_Generator'>
                 <div className='card-header'>
-                    <h2>Text Edit Pro</h2>
+                    <h3 style={styles.titleStyles}>README Generator</h3>
                 </div>
                 <div className='card-body'>
-                    <img src={TEP} 
+                    <img src={READMEGen} 
                     className='img-fluid'
-                    href='https://github.com/jbungurait/Text-Edit-Pro'></img>
+                    ></img>
                 </div>
+                </a>
+            </div>
+            </div>
+            <div className='row'>
+            <div className='card' style={styles.PortfolioStyle}>
+                <a href='https://sleep--sync.herokuapp.com/'>
+                <div className='card-header'>
+                    <h3 style={styles.titleStyles}>SleepSync</h3>
+                </div>
+                <div className='card-body'>
+                    <img src={SleepSync} 
+                    className='img-fluid'
+                    ></img>
+                </div>
+                </a>
+            </div>
+            <div className='card' style={styles.PortfolioStyle}>
+                <a href='https://jbungurait.github.io/Adventure_Finder/'>
+                <div className='card-header'>
+                    <h3 style={styles.titleStyles}>Adventure Finder</h3>
+                </div>
+                <div className='card-body'>
+                    <img src={AdventureFinder} 
+                    className='img-fluid'
+                    ></img>
+                </div>
+                </a>
+            </div>
             </div>
         </div>
     )
