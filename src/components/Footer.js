@@ -8,17 +8,21 @@ const styles = {
         display: 'block',
         bottom: '0px',
         paddingTop: '20px',
+        start: '50',
+        translate: 'middle x',
+        marginLeft: '40%',
     },
     imgStyles: {
         maxHeight: '100px',
         maxWidth: '100px',
+        margin: '10px',
     }
 
 }
 
 export default function Footer() {
     return (
-        <footer className='class="position-absolute bottom-0 start-50 translate-middle-x"' style={styles.footerStyles}>
+        <footer style={styles.footerStyles}>
             <a href='https://github.com/jbungurait'>
             <img 
             src={GitHub} 

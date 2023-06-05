@@ -44,4 +44,6 @@ a h2 {
 
 .content {
     min-height: 1100px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
