@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Josh_Ungurait_React_Portfolio/static/css/main.01cdf6dd.css",
+    "main.js": "/Josh_Ungurait_React_Portfolio/static/js/main.b784951d.js",
+    "static/media/AF_screenshot.jpg": "/Josh_Ungurait_React_Portfolio/static/media/AF_screenshot.39798d62f8a13cae8211.jpg",
+    "static/media/WeatherDashboard.png": "/Josh_Ungurait_React_Portfolio/static/media/WeatherDashboard.752f20eee8e5cf9d988c.png",
+    "static/media/SleepSync.png": "/Josh_Ungurait_React_Portfolio/static/media/SleepSync.a6cf569bb2c49d1f4fc8.png",
+    "static/media/READMEGen.png": "/Josh_Ungurait_React_Portfolio/static/media/READMEGen.62d0faad3bb21bab0c32.png",
+    "static/media/Josh_Ungurait.pdf": "/Josh_Ungurait_React_Portfolio/static/media/Josh_Ungurait.1fe24f71207afdb3e491.pdf",
+    "static/media/Text-Edit-Pro.png": "/Josh_Ungurait_React_Portfolio/static/media/Text-Edit-Pro.a8dac1473787cefe8b4f.png",
+    "static/media/IMG_2056.jpg": "/Josh_Ungurait_React_Portfolio/static/media/IMG_2056.db1458c6bd4afbf4b09e.jpg",
+    "static/media/linkedIn-Logo.png": "/Josh_Ungurait_React_Portfolio/static/media/linkedIn-Logo.bb933d6809d6410387a0.png",
+    "index.html": "/Josh_Ungurait_React_Portfolio/index.html",
+    "main.01cdf6dd.css.map": "/Josh_Ungurait_React_Portfolio/static/css/main.01cdf6dd.css.map",
+    "main.b784951d.js.map": "/Josh_Ungurait_React_Portfolio/static/js/main.b784951d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01cdf6dd.css",
+    "static/js/main.b784951d.js"
+  ]
+}
