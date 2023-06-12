@@ -12,10 +12,11 @@ const styles = {
 export default function AboutMe() {
     return (
         <div className='content'>
-            <h1>About Me!</h1>
+            <h1>Josh Ungurait</h1>
             <div className='image'>
                 <img className="headshot" style={styles.imgStyle} src={Headshot}></img>
             </div>
+            <h3>About Me</h3>
             <p>
                 Hello! My name is Josh Ungurait. I currently live in downtown Seattle
                 with my dog June. I've been in Washington State for 3 years now after graduating from
