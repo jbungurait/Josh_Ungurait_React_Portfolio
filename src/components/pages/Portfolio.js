@@ -5,6 +5,7 @@ import TextEditPro from '../../assets/images/Text-Edit-Pro.png';
 import READMEGen from '../../assets/images/READMEGen.png';
 import WeatherDashboard from '../../assets/images/WeatherDashboard.png';
 import SleepSync from '../../assets/images/SleepSync.png';
+import StreamVerse from '../../assets/images/StreamVerse.png';
 
 const styles = {
     PortfolioStyle: {
@@ -89,12 +90,12 @@ export default function Portfolio() {
                 </a>
             </div>
             <div className='card' style={styles.PortfolioStyle}>
-                <a href='https://jbungurait.github.io/Adventure_Finder/'>
+                <a href='https://github.com/kylearmour1/StreamVerse'>
                 <div className='card-header'>
-                    <h3 style={styles.titleStyles}>Adventure Finder</h3>
+                    <h3 style={styles.titleStyles}>StreamVerse</h3>
                 </div>
                 <div className='card-body'>
-                    <img src={AdventureFinder} 
+                    <img src={StreamVerse} 
                     className='img-fluid'
                     ></img>
                 </div>
