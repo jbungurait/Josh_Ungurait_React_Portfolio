@@ -45,7 +45,7 @@ function contactForm() {
 
     return (
         <div> 
-            <h3>Submit message here!</h3>
+            <h3>Submit a message here!</h3>
             <form className="contactForm">
                 <div className='mb3'>
                 <input
