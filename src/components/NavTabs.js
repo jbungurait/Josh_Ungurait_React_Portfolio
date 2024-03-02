@@ -21,12 +21,12 @@ function NavTabs({ currentPage, handlePageChange }) {
                 className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                 ><h2>Resume</h2></a>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
                 <a href='#contact'
                 onClick={() => handlePageChange('Contact')}
                 className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                 ><h2>Contact</h2></a>
-            </li>
+            </li> */}
         </ul>
     );
 };

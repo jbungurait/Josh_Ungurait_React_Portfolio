@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
+import emailjs from '@emailjs/browser';
 import { validateEmail, validatePhone } from '../../utils/helpers';
 import '../../assets/css/ContactForm.css';
 
@@ -27,15 +28,19 @@ function contactForm() {
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
-
+        
         if (!validateEmail(email)) {
             setErrorMessage('Enter valid email.');
             return;
         }
-        if (!validatePhone(phone)) {
-            setErrorMessage('Enter valid phone number.');
-            return;
-        }
+        // if (!validatePhone(phone)) {
+        //     setErrorMessage('Enter valid phone number.');
+        //     return;
+        // }
+        // var SubmitForm = [];
+        // SubmitForm = {setEmail, setMessage, setName, setPhone};
+
+        emailjs.sendForm('service_2mfq7nk', 'template_3hrxa7f', contactForm, 'GTe2dUV_LGLeADAbW');
 
         setEmail('');
         setMessage('');
